@@ -11,9 +11,14 @@ We use reflection to modify private fields (name and age) of the Person class. B
 Similarly, we use reflection to invoke private methods (greet() and test()) of the Person class. By setting the accessibility of these methods to true, we can call them dynamically.
 
 <h1>Running the Example</h1>
+
 1. Compile the JavaReflection.java file: javac JavaReflection.java
+
 2. Run the compiled class file: java JavaReflection
 <h1>Key Points</h1>
+
 - Reflection provides a way to inspect and modify classes, fields, and methods dynamically at runtime.
+
 - It allows you to bypass access restrictions, such as private access modifiers, to access and modify private members of a class.
+
 - While reflection is a powerful tool, it should be used judiciously due to its potential for complexity and performance overhead.
